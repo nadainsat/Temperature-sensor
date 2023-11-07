@@ -1,1 +1,4 @@
-# Temperature-sensor
+This Arduino code aims to monitor and control an onboard LED based on temperature readings from an LM35 sensor. 
+The code uses the "TimerOne" library for timing functions and defines constants for the LM35 sensor and LED pins, along with variables for temperature, delay counters, and the LED state. 
+It reads the LM35 sensor, converts the analog value to degrees Celsius, and prints the temperature to the Serial Monitor. Depending on the temperature, the LED state is toggled at different rates. If the temperature exceeds 30 degrees Celsius, the LED blinks at a slower rate, indicating a "hot" state, while in a "cold" state, it blinks at a faster rate. 
+The timer ensures continuous monitoring and LED control. Overall, this code provides a simple temperature-based LED control system using an LM35 sensor and an Arduino board.
